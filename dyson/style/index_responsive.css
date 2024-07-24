@@ -1,0 +1,280 @@
+@media only screen and (max-width: 1520px)  {
+    .video_bg {
+        height: 50vh;
+    }
+}
+@media only screen and (max-width: 1390px)  {
+    .product_list {gap: 10px; margin: 0 10px;}
+}
+@media only screen and (max-width: 1270px) {
+    .swiper .swiper-wrapper .swiper-slide {
+        overflow-x: hidden;
+    }
+    .all_main_product {
+        margin-left: 0px;
+    }
+    .product_list {flex-wrap: wrap;}
+    .product_list .best_product_list {width: 45%;}
+}
+@media only screen and (max-width: 1024px) {
+    .left_img_btn {display: block;}
+    .right_header {display: none;}
+    .left_header ul li a{display: none;}
+    .video_text h1 {font-size: 2rem;}
+    .img_bg .img_bg_text h1 {font-size: 2rem;}
+    .video_bg video{width: 100%;}
+    .video_text h2 {
+        left: 30%;
+        font-size: 2.75rem;
+    }
+    .img_bg .img_bg_text {
+        top: 20%;
+        left: 30%
+    }
+    .img_bg .img_bg_text h2 {font-size: 2.5rem;}
+    .img_bg .img_bg_text > p {font-size: 1rem;}
+    .weekly_pick .left_img_box a > span {
+        font-size: 2rem;
+        left: 8%;
+    }
+    .right_box_btm > a > span {font-size: 1.5rem;}
+    .weekly_pick .right_box_left a > span {
+        font-size: 0.8rem; left: 3%;
+    }
+    .weekly_pick .right_box_right a > span {font-size: 0.8rem; left: 18%;}
+    .swiper {margin-left: 40px;}
+    .all_product .swiper-button-prev {left: 650px;}
+    .all_product .swiper-button-next {right: 10px;}
+    
+}
+@media only screen and (max-width: 840px) {
+    .video_bg {
+        height: 20vh;
+    }
+}
+@media only screen and (max-width: 760px) {
+    .video_text h1 {font-size: 1.25rem;}
+    .best_product .top_menu a img {width: 14px;}    
+    .img_bg .img_bg_text {left: 30%;} 
+    .img_bg .img_bg_text h1 {font-size: 1.25rem; padding-bottom: 20px;}
+    .img_bg .img_bg_text > p {font-size: 0.75rem;}
+    .product_list .best_product_list {
+        padding-bottom: 10px;
+    }
+
+    .left_img {display: block;}
+    .right_header {display: none;}
+    .best_product .top_menu {margin: 0 10px;}
+    .product_list {margin: 30px 10px 0 20px;}
+    .best_product .top_menu h2 {font-size: 1.5rem;}
+    .best_product .top_menu a {font-size: 0.875rem;}
+
+    .swiper .swiper-wrapper .swiper-slide .swiper_text .swiper_text_btm > p {
+        padding-bottom: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    /* weekly pick */
+    .weekly_pick .left_img_box a > span {
+        left: 20%;
+    }
+    .weekly_pick .right_box_left a > span {
+        left: 3%;
+        font-size: 1.25rem;
+    }
+    .weekly_pick .right_box_right a > span {
+        left: 17%;
+        font-size: 1.25rem;
+    }
+    .swiper .swiper-wrapper .swiper-slide {justify-content: center;}
+    .right_box_btm > a > span {font-size: 2rem;}
+    .pick_img_box {display: flex; flex-wrap: wrap;}
+    .weekly_pick .left_img_box {width: 100%;}
+    .weekly_pick .right_img_box {width: 100%;}
+    /* all product */
+    .all_product {margin: 0 10px; padding: 0; display: block;}
+    .all_top {display: block; margin: 50px 10px 0;}
+    .all_top h2 {font-size: 1.5rem; padding-bottom: 20px;}    
+    .all_top .left_btn_text ul li a {
+        margin-right: 10px; font-size: 1rem;
+    }
+    .all_main_product .left_img {height: 500px; width: 100%;}
+    .swiper {
+        width: 100%; margin-left: 0;
+        padding-left: 20px;
+    }
+    .swiper .swiper-wrapper .swiper-slide .first_product {
+        width: 250px;
+    }
+    .swiper .swiper-wrapper .swiper-slide .first_product > p {
+        width: 250px; height: 300px ;
+    }
+    .swiper .swiper-wrapper .swiper-slide .swiper_text {width: 150px;}
+    .swiper .swiper-wrapper .swiper-slide .swiper_text h2 {font-size: 0.75rem; line-height: 1.5;}
+    .swiper .swiper-wrapper .swiper-slide .swiper_text .swiper_text_btm {
+        display: block; font-size: 0.75rem;
+    }
+    .swiper .swiper-wrapper .swiper-slide {max-width: 760px;}
+    .swiper .swiper-wrapper .swiper-slide .first_product {margin-right: 30px;}
+    .all_product .swiper-button-prev {left: -10px; top: 70%;}
+    .all_product .swiper-button-next {top: 70%; right: 0;}
+    /* .sustainability */
+    .sustainability {margin-top: 50px;}
+    .sustainability > p > img {height: 300px;}
+    .sustainability_text {font-size: 0.875rem;}
+    .sustainability_text > span > a {font-size: 0.875rem ; padding: 10px 30px ;}
+    .sustainability_text h4 {padding: 35px 0 50px;}
+    .sustainability_text {
+        top: 25%;
+        left: 32%;
+    }
+    /* .review_event */
+    .review_event {height: 200px;}
+    .review_event .review_event_text h2 {font-size: 1rem;}
+    .review_event .review_event_text h3 {
+        font-size: 0.875rem;
+        margin: 20px 0 20px;
+    }
+    .review_event .review_event_text > p a {
+        font-size: 0.75rem;
+    padding: 10px 15px;
+    }
+    /* .experience */
+    .experience p img {height: 200px; object-fit: cover;}
+    .experience_text h2 {font-size: 1rem; margin-bottom: 30px;}
+    .experience_text > p > a {font-size: 0.75rem; padding: 10px 15px;}
+    /* .brand_news_sort */
+    .brand_news {margin: 50px 10px;}
+    .brand_news_sort {flex-direction: column;}
+    .brand_news h2 {font-size: 1.5rem;}
+    .brand_news .brand_news_content h3 {font-size: 0.875rem;}
+    .brand_news .brand_news_content p {font-size: 0.75rem; padding-bottom: 10px;}
+    .brand_news .brand_news_content {width: 100%;}
+    /* footer */
+    .footer_top .left_top_footer {font-size: 1rem;}
+    .footer_top {margin-top: 100px; padding: 0 10px;}
+    .footer_top .right_top_footer a img {width: 35px;}
+    .footer_top .right_top_footer {font-size: 0.875rem;}
+    .footer_btm .footer_btm_bg > p {width: 40px;}
+    .footer_btm {padding: 0 10px;}
+    .content2 > ul > li {padding: 20px 0;}
+    .accordion__list.active .accordion__body {
+        font-size: 0.75rem; padding: 20px 0;
+        line-height: 1.7;
+    }
+    .footer_bg {padding: 25px 0; flex-wrap: wrap;}
+    .footer_btm_bg {padding-bottom: 20px;}
+    .top_header .right_header {display: none;}
+}
+@media only screen and (max-width: 670px) {
+
+}
+@media only screen and (max-width: 550px) {
+    .first_text .price_color {flex-direction: column; gap: 10px;}
+}
+@media only screen and (max-width: 390px) {
+    /* 햄버거 메뉴 */
+    .nav_menu {display: block; background-color: #000;}
+    .move_btn {display: block;}
+    .best_product .top_menu {margin: 0 10px;}
+    .product_list {margin: 30px 10px 0 20px;}
+    .best_product .top_menu h2 {font-size: 1.5rem;}
+    .best_product .top_menu a {font-size: 0.875rem;}
+    .best_product .top_menu a img {width: 14px;}
+    .video_text h1 {font-size: 1rem; left: 32%;}
+    .img_bg .img_bg_text {left: 20%;}
+    .img_bg .img_bg_text h1 {font-size: 1rem; padding-bottom: 10px;}
+    .img_bg .img_bg_text > p {font-size: 0.75rem;}
+    .swiper .swiper-wrapper .swiper-slide .swiper_text .swiper_text_btm > p {
+        padding-bottom: 5px;
+        font-size: 0.75rem;
+    }
+    /* weekly pick */
+    .pick_img_box {display: flex; flex-wrap: wrap;}
+    .weekly_pick .left_img_box {width: 100%;}
+    .weekly_pick .right_img_box {width: 100%;}
+    /* all product */
+    .all_product {margin: 0 10px;}
+    .all_top {display: block; margin: 50px 10px 0;}
+    .all_top h2 {font-size: 1.5rem; padding-bottom: 20px;}    
+    .all_top .left_btn_text ul li a {
+        margin-right: 10px; font-size: 0.875rem;
+    }
+    .all_product {display: block;}
+    .all_main_product .left_img {height: 500px; width: 100%;}
+    .swiper {
+        width: 100%; margin-left: 0;
+        padding-left: 20px;
+    }
+    .swiper .swiper-wrapper .swiper-slide .first_product {
+        margin-right: 10px;
+        width: 145px;
+    }
+    .swiper .swiper-wrapper .swiper-slide .first_product > p {width: 145px; height: 200px ;}
+    .swiper .swiper-wrapper .swiper-slide .swiper_text {width: 150px;}
+    .swiper .swiper-wrapper .swiper-slide .swiper_text h2 {font-size: 0.75rem; line-height: 1.5;}
+    .swiper .swiper-wrapper .swiper-slide .swiper_text .swiper_text_btm {
+        font-size: 0.75rem;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+    }
+    .swiper .swiper-wrapper .swiper-slide {max-width: 390px;}
+    .all_product .swiper-button-prev {left: -10px; top: 70%;}
+    .all_product .swiper-button-next {top: 70%; right: 0;}
+    /* .sustainability */
+    .sustainability {margin-top: 50px;}
+    .sustainability > p > img {height: 300px;}
+    .sustainability_text {font-size: 0.875rem;}
+    .sustainability_text > span > a {font-size: 0.875rem ; padding: 10px 30px ;}
+    .sustainability_text h4 {padding: 35px 0 50px;}
+    .sustainability_text {
+        top: 25%;
+        left: 32%;
+    }
+    /* .review_event */
+    .review_event {height: 200px;}
+    .review_event .review_event_text h2 {font-size: 1rem;}
+    .review_event .review_event_text h3 {
+        font-size: 0.875rem;
+        margin: 20px 0 20px;
+    }
+    .review_event .review_event_text > p a {
+        font-size: 0.75rem;
+    padding: 10px 15px;
+    }
+    /* .experience */
+    .experience p img {height: 200px; object-fit: cover;}
+    .experience_text h2 {font-size: 1rem; margin-bottom: 30px;}
+    .experience_text > p > a {font-size: 0.75rem; padding: 10px 15px;}
+    /* .brand_news_sort */
+    .brand_news {margin: 50px 10px;}
+    .brand_news_sort {flex-direction: column;}
+    .brand_news h2 {font-size: 1.5rem;}
+    .brand_news .brand_news_content h3 {font-size: 0.875rem;}
+    .brand_news .brand_news_content p {font-size: 0.75rem; padding-bottom: 10px;}
+    .brand_news .brand_news_content {width: 100%;}
+    /* footer */
+    .footer_top .left_top_footer {font-size: 1rem;}
+    .footer_top {margin-top: 100px; padding: 0 10px;}
+    .footer_top .right_top_footer a img {width: 35px;}
+    .footer_top .right_top_footer {font-size: 0.875rem;}
+    .footer_btm .footer_btm_bg > p {width: 40px;}
+    .footer_btm {padding: 0 10px;}
+    .content2 > ul > li {padding: 20px 0;}
+    .accordion__list.active .accordion__body {
+        font-size: 0.75rem; padding: 20px 0;
+        line-height: 1.7;
+    }
+    .footer_bg {padding: 25px 0; flex-wrap: wrap;}
+    .footer_btm_bg {padding-bottom: 20px;}
+    .top_header .right_header {display: none;}
+    .first_text .price_color > p {font-size: 0.75rem;}
+    .product_list .best_product_list .first_text .left_text h3 {
+        font-size: 0.87rem;
+        line-height: 1.5;
+        font-weight: 600;
+    }
+}
